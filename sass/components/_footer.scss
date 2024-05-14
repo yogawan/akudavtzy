@@ -1,0 +1,23 @@
+footer {
+    background-color: $background-2;
+    color: $text-2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 64px;
+    .main {
+        width: 256px;
+        img {
+            margin-top: 16px;
+            width: 64px;
+        }
+        margin-bottom: 64px;
+    }
+    .content {
+        a {
+            text-decoration: none;
+            color: $text-2;
+        }
+        margin-bottom: 64px;
+    }
+}

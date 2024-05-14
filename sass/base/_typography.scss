@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Balo';
+    src: url('/src/font/baloo/baloo-regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+$font: Balo;
+$font-2: Fredoka, sans-serif;
+  
+
+.b256 {
+    font-family: $font;
+    font-size: 256px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 256px;
+} .b128 {
+    font-family: $font;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128px;
+} .b96 {
+    font-family: $font;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px;
+} .b64 {
+    font-family: $font;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+} 
+
+@media (max-width: 768px) {
+    .b128 {
+        font-family: $font;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+    } .b64 {
+        font-family: $font;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px;
+    }
+}
+
+@media (max-width: 480px) {
+    .b128 {
+        font-family: $font;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+    } .b64 {
+        font-family: $font;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px;
+    }
+}
+
+.b48 {
+    font-family: $font;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48;
+} .b40 {
+    font-family: $font;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+} .b36 {
+    font-family: $font;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+} .b32 {
+    font-family: $font;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+} .b24 {
+    font-family: $font;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+} .b20 {
+    font-family: $font;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+} .b16 {
+    font-family: $font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+} .b12 {
+    font-family: $font;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.f256 {
+    font-family: $font-2;
+    font-size: 256px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 256px;
+} .f128 {
+    font-family: $font-2;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 128px;
+} .f64 {
+    font-family: $font-2;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+} .f48 {
+    font-family: $font-2;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48;
+} .f40 {
+    font-family: $font-2;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+} .f36 {
+    font-family: $font-2;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+} .f32 {
+    font-family: $font-2;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+} .f24 {
+    font-family: $font-2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+} .f20 {
+    font-family: $font-2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+} .f18 {
+    font-family: $font-2;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+} .f16 {
+    font-family: $font-2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+} .f12 {
+    font-family: $font-2;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 12px;
+}

@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #C8EDFF;
+}
+
+@font-face {
+  font-family: "Balo";
+  src: url("/src/font/baloo/baloo-regular.ttf") format("truetype");
+  font-display: swap;
+}
+.b256 {
+  font-family: Balo;
+  font-size: 256px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 256px;
+}
+
+.b128 {
+  font-family: Balo;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128px;
+}
+
+.b96 {
+  font-family: Balo;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px;
+}
+
+.b64 {
+  font-family: Balo;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+
+@media (max-width: 768px) {
+  .b128 {
+    font-family: Balo;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+  }
+  .b64 {
+    font-family: Balo;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+  }
+}
+@media (max-width: 480px) {
+  .b128 {
+    font-family: Balo;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+  }
+  .b64 {
+    font-family: Balo;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+  }
+}
+.b48 {
+  font-family: Balo;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48;
+}
+
+.b40 {
+  font-family: Balo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.b36 {
+  font-family: Balo;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.b32 {
+  font-family: Balo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.b24 {
+  font-family: Balo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.b20 {
+  font-family: Balo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.b16 {
+  font-family: Balo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.b12 {
+  font-family: Balo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.f256 {
+  font-family: Fredoka, sans-serif;
+  font-size: 256px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 256px;
+}
+
+.f128 {
+  font-family: Fredoka, sans-serif;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 128px;
+}
+
+.f64 {
+  font-family: Fredoka, sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px;
+}
+
+.f48 {
+  font-family: Fredoka, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48;
+}
+
+.f40 {
+  font-family: Fredoka, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.f36 {
+  font-family: Fredoka, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.f32 {
+  font-family: Fredoka, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.f24 {
+  font-family: Fredoka, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.f20 {
+  font-family: Fredoka, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.f18 {
+  font-family: Fredoka, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.f16 {
+  font-family: Fredoka, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.f12 {
+  font-family: Fredoka, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 12px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1450980392);
+}
+.about .left {
+  width: 512px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.about .right img {
+  width: 360px;
+}
+
+.quotes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1450980392);
+}
+.quotes .left {
+  width: 512px;
+  margin-right: 40px;
+}
+.quotes .right {
+  margin-top: 32px;
+  width: 512px;
+}
+
+.social {
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.social .list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 256px;
+  padding-right: 256px;
+}
+.social .list a {
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .social .list {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .social .list {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+form {
+  padding-left: 256px;
+  padding-right: 256px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1450980392);
+  border-top: 1px solid rgba(0, 0, 0, 0.1450980392);
+}
+form input {
+  background-color: #4CC6FE;
+  width: 100%;
+  border: none;
+  padding: 24px;
+}
+form textarea {
+  background-color: #4CC6FE;
+  width: 100%;
+  border: none;
+  padding: 24px 24px 100px 24px;
+}
+
+@media (max-width: 1000px) {
+  form {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+@media (max-width: 768px) {
+  form {
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+}
+@media (max-width: 480px) {
+  form {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.card-box {
+  position: relative;
+  display: inline-block;
+  padding: 44px;
+  background-color: #4CC6FE;
+  color: #FFFFFF;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.card-box::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 100%;
+  height: 100%;
+  background-color: #3995BF;
+  z-index: -1;
+}
+
+footer {
+  background-color: #FE5D8F;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 64px;
+}
+footer .main {
+  width: 256px;
+  margin-bottom: 64px;
+}
+footer .main img {
+  margin-top: 16px;
+  width: 64px;
+}
+footer .content {
+  margin-bottom: 64px;
+}
+footer .content a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 18px 44px;
+  background-color: #4CC6FE;
+  color: #FFFFFF;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 100%;
+  height: 100%;
+  background-color: #3995BF;
+  z-index: -1;
+}
+
+.button-2 {
+  position: relative;
+  display: inline-block;
+  padding: 18px 44px;
+  background-color: #4CC6FE;
+  color: #FFFFFF;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-2::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 100%;
+  height: 100%;
+  background-color: #3995BF;
+  z-index: -1;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1450980392);
+}
+.hero a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Freedoka";
+  src: url("fonts/custom-font.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=styles.css.map */
