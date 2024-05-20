@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -30,6 +31,11 @@
     background-color: #C8EDFF;
     color: #1B4559;
     border-bottom: 1px solid #00000025;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo {

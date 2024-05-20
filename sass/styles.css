@@ -441,15 +441,11 @@ footer .content a {
   padding-bottom: 72px;
   padding-left: 24px;
   padding-right: 24px;
+  margin-top: 128px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1450980392);
 }
 .hero a {
   text-decoration: none;
-}
-
-@font-face {
-  font-family: "Freedoka";
-  src: url("fonts/custom-font.ttf") format("truetype");
 }
 
 /*# sourceMappingURL=styles.css.map */

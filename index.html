@@ -4,29 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AKUDAV</title>
-    <link rel="icon" href="/src/img/logo.png" type="image/x-icon">
+    <link rel="icon" href="/src/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/src/css/styles.css">
     <link rel="stylesheet" href="/sass/styles.css">
 </head>
 <body>
-    <nav class="navbar b24">
-        <div class="logo"><img src="/src/img/logo.png" alt="logo"></div>
-        <ul class="nav-links">
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang</a></li>
-            <li><a href="#">Merchandise</a></li>
-            <li><a href="#">Media Sosial</a></li>
-        </ul>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </nav>
-    <div class="hero">
+    <div class="hero" id="hero">
         <h1 class="b128">Consistent is a key</h1><br>
         <p class="f18">Consistency is key because it builds trust, drives progress, boosts efficiency, strengthens brand identity, forms habits, and ensures quality</p><br>
-        <a href="#" class="button f24">YouTube</a>
+        <a href="https://www.youtube.com/@AKUDAV" class="button f24" id="about">YouTube</a>
     </div>
     <div class="about">
         <div class="left">
@@ -44,25 +30,22 @@
         </div>
         <div class="right">
             <p class="f18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, atque aliquam. Architecto amet optio, recusandae distinctio incidunt, perferendis quos veniam ipsam natus ipsa fugiat fuga, officiis iure minima beatae dolorum.</p><br>
-            <p class="f18">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quasi voluptatum quidem nam asperiores eos distinctio accusantium itaque dolore architecto, a ullam omnis corporis similique minima? Eveniet blanditiis repellat accusamus.</p>
+            <p class="f18" id="merch">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quasi voluptatum quidem nam asperiores eos distinctio accusantium itaque dolore architecto, a ullam omnis corporis similique minima? Eveniet blanditiis repellat accusamus.</p>
         </div>
     </div>
     <div class="hero">
         <h1 class="b64">Dapatkan merchandise eksklusif dari AKUDAV sekarang juga!</h1><br>
         <p class="f18">Buat kalian yang mau merchandise AKUDAV... buruan tekan tombol di bawah melakukan pemesanan. Stok terbatas loh... jangan sampai ga beli!</p><br>
-        <a href="#" class="button f24">Merchandise</a>
+        <a href="#" class="button f24" id="social">Merchandise</a>
     </div>
     <div class="social">
         <h1 class="b64">Media Sosial</h1><br>
         <p class="f18">Ayo.. pantau terus akun sosial media AKUDAV untuk mendapatkan informasi terbaru dari AKUDAV... jangan sampai ketinggalan ya...</p><br><br>
         <div class="list">
-            <a href="#" class="button-2 f18">YouTube</a>
-            <a href="#" class="button-2 f18">Roblox</a>
-            <a href="#" class="button-2 f18">Instagram</a>
-            <a href="#" class="button-2 f18">Threads</a>
-            <a href="#" class="button-2 f18">Twitter</a>
-            <a href="#" class="button-2 f18">Discord</a>
-            <a href="#" class="button-2 f18">Telegram</a>
+            <a href="https://www.youtube.com/@AKUDAV" class="button-2 f18">YouTube</a>
+            <a href="https://roblox.com/users/1722841476/profile" class="button-2 f18">Roblox</a>
+            <a href="https://discord.com/invite/WQsFEDh" class="button-2 f18">Discord</a>
+            <a href="https://instagram.com/akudav__" class="button-2 f18">Instagram</a>
         </div>
     </div>
     <form action="">
@@ -81,9 +64,9 @@
         <div class="content">
             <p class="b24">Links</p><br><br>
             <a href="#" class="f18">Home</a><br><br>
-            <a href="#" class="f18">Tentang</a><br><br>
-            <a href="#" class="f18">Merchandise</a><br><br>
-            <a href="#" class="f18">Media Sosial</a>
+            <a href="#about" class="f18">Tentang</a><br><br>
+            <a href="#merch" class="f18">Merchandise</a><br><br>
+            <a href="#social" class="f18">Media Sosial</a>
         </div>
         <div class="content">
             <p class="b24">Social Media</p><br><br>
@@ -93,13 +76,25 @@
             <a href="#" class="f18">YouTube</a>
         </div>
         <div class="content">
-            <p class="b24">Feedback</p><br><br>
-            <a href="#" class="f18">Instagram</a><br><br>
-            <a href="#" class="f18">Tiktok</a><br><br>
-            <a href="#" class="f18">Twitter</a><br><br>
-            <a href="#" class="f18">YouTube</a>
+            <p class="b24">Company</p><br><br>
+            <a href="#" class="f18">Terms of Service</a><br><br>
+            <a href="#" class="f18">Privacy Policy</a>
         </div>
     </footer>
+    <nav class="navbar b24">
+        <div class="logo"><img src="/src/img/logo.png" alt="logo"></div>
+        <ul class="nav-links">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#merch">Merchandise</a></li>
+            <li><a href="#social">Media Sosial</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
     <script src="/src/js/components/navigation.js"></script>
 </body>
 </html>
